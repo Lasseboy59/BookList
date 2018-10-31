@@ -21,8 +21,8 @@ namespace BookList.Controllers
             return View(_db.Books.ToList());
         }
 
-
-        protected override void Disose(bool disposing)
+         
+        protected override void Dispose(bool disposing)
         {
             if (disposing)
             {
